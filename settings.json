@@ -1,0 +1,61 @@
+{
+  // Visual Studio Presets
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.external.windowsExec": "C:\\Git\\bin\\bash.exe",
+  "terminal.integrated.shell.windows": "C:\\Git\\bin\\bash.exe",
+    
+  // Editor Settings
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "editor.renderLineHighlight": "gutter",
+  "breadcrumbs.enabled": true,
+  "window.zoomLevel": 0.4,
+
+  // Sets the Editor Font
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "400",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+
+  // Sets the Terminal Font
+  "terminal.integrated.fontSize": 14,
+
+  // Editor Indentation Settings
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+
+  // Extensions
+    // Tabnine
+    "tabnine.experimentalAutoImports": true,
+
+    // Prettier
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  //
+}
