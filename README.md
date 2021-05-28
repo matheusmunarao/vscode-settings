@@ -2,7 +2,7 @@
 
 My settings for Visual Studio Code.
 
-Theme: Dracula
+Theme: Origamid Next
 
 Icon Theme: Material Icon Theme
 
