@@ -1,7 +1,7 @@
 {
   // Visual Studio Presets
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Origamid Next",
   "workbench.iconTheme": "material-icon-theme",
   "terminal.external.windowsExec": "C:\\Git\\bin\\bash.exe",
   "terminal.integrated.shell.windows": "C:\\Git\\bin\\bash.exe",
@@ -11,18 +11,20 @@
   "editor.minimap.enabled": false,
   "editor.mouseWheelZoom": true,
   "editor.renderLineHighlight": "gutter",
+  "explorer.compactFolders": false,
   "breadcrumbs.enabled": true,
   "window.zoomLevel": 0.4,
+  // "window.zoomLevel": 0.8, // for Recording/Streaming
 
   // Sets the Editor Font
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontWeight": "400",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 24,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 20,
   "editor.fontLigatures": true,
 
   // Sets the Terminal Font
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
 
   // Editor Indentation Settings
   "editor.tabSize": 2,
