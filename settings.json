@@ -1,63 +1,82 @@
 {
   // Visual Studio Presets
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Origamid Next",
+  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
-  "terminal.external.windowsExec": "C:\\Git\\bin\\bash.exe",
-  "terminal.integrated.shell.windows": "C:\\Git\\bin\\bash.exe",
-    
+  "terminal.integrated.defaultProfile.osx": "/bin/zsh",
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.emptyWindow": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": false,
+
   // Editor Settings
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.mouseWheelZoom": true,
   "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "workbench.tree.indent": 15,
   "explorer.compactFolders": false,
   "breadcrumbs.enabled": true,
-  "window.zoomLevel": 0.4,
-  // "window.zoomLevel": 0.8, // for Recording/Streaming
+  "window.zoomLevel": 1,
 
   // Sets the Editor Font
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontWeight": "400",
-  "editor.fontSize": 13,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "normal",
+  "editor.fontSize": 12,
   "editor.lineHeight": 20,
   "editor.fontLigatures": true,
 
   // Sets the Terminal Font
-  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontSize": 12,
 
   // Editor Indentation Settings
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
 
-  // Extensions
-    // Tabnine
-    "tabnine.experimentalAutoImports": true,
+  // Emmet
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
-    // Prettier
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[php]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-  //
+  // Extensions
+  // Material Icon
+  "material-icon-theme.folders.associations": {
+    "domain": "core",
+    "infra": "app",
+    "main": "public",
+    "presentation": "connection",
+    "cryptography": "secure",
+    "entities": "class",
+    "repositories": "mappings",
+    "protocols": "resource",
+    "useCases": "components",
+    "subcomponents": "components",
+    "adapters": "connection",
+    "factories": "container",
+    "globals": "global",
+    "ui": "views"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    ".lintstagedrc.json": "tune"
+  },
+
+  // ESLint
+  "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay"
 }
