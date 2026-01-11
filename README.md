@@ -6,4 +6,4 @@ Theme: Dracula
 
 Icon Theme: Material Icon Theme
 
-Font: Fira Code
+Font: JetBrains Mono
